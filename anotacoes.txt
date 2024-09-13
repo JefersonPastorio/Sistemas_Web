@@ -1,0 +1,19 @@
+comandos caso aconteça vulnerabilidade nos projetos:
+
+1- npm audit fix
+2- npm audit fix --force
+
+Criando pasta:
+
+1- express --view=ejs --git (nome da pasta que gostaria de criar)
+
+No banco de dados MongoDB:
+
+- Para atualizar uma informação que ja está salva você usa o seguinte comando:
+
+db.usuarios.updateOne({nome:("nome do usuario")}, {$set: {email:("alteração a fazer")}});
+
+- Para adicionar informações diretamente no MongoDB:
+
+db.usurarios.insertOne({nome:("nome do usuario")}, email:("alteração a fazer"));
+

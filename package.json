@@ -1,0 +1,21 @@
+{
+  "name": "Projeto de Sistemas Web",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "desenv": "nodemon app.js",
+    "produc": "node app.js"
+  },
+  "keywords": [
+    "sistemas",
+    "web",
+    "Livraria"
+  ],
+  "author": "Jéferson L Pastório",
+  "license": "ISC",
+  "description": "Esse é o aplicativo da disciplina.",
+  "dependencies": {
+    "mongoose": "^8.6.1"
+  }
+}

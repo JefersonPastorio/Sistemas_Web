@@ -1,0 +1,20 @@
+{
+  "name": "gerador",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "cria": "sass --watch sass:public/stylesheets"
+  },
+  "dependencies": {
+    "cookie-parser": ">=1.4.6",
+    "ejs": ">=3.1.10",
+    "express": ">=4.19.2",
+    "http-errors": ">=2.0.0",
+    "morgan": ">=1.10.0"
+  },
+  "devDependencies": {
+    "debug": "^4.3.7",
+    "sass": "^1.78.0"
+  }
+}

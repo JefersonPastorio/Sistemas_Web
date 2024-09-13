@@ -1,0 +1,6 @@
+{
+    "watch": ["*.*"],
+    "ext": "js,mjs,cjs,json,scass",
+    "exec": "node bin/www"
+
+}
