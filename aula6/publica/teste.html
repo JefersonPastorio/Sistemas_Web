@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulta de Usuários</title>
+  </head>
+  <body>
+    <h1>Consultar Usuário</h1>
+    <form id="meuForm">
+      <label for="Usuario">Informe o usuário: </label>
+      <input type="text" id="enUsuario" required>
+      <label for="Senha">Informe a senha: </label>
+      <input type="password" id="enSenha" required>
+      <label for="">Qual usuario deseja consultar?</label>
+      <input type="text" id="enConsulta" required />
+      <button type="submit">Consultar</button>
+    </form>
+    <h2>Dados do Usuário:</h2>
+    <pre id="saConsulta"></pre>
+    <script src="./script.js"></script>
+  </body>
+</html>
